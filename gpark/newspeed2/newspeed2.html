@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+  <title lang="ko">투어핀 뉴스피드</title>
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/kopubbatang.css">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- your custom css -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header header--bg">
+    <nav class="navbar navbar-light navbar-inverse">
+      <button class="navbar-toggler navbar-toggler-right pt-1 mt-1" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        MENU <span class="navbar-toggler-icon pb-2 mb-1"></span>
+      </button>
+      <h1 class="brand">
+        <div class="d-flex flex-nowrap">
+          <a class="navbar-brand navber-white px-1 pt-2 mt-1" href="#">PILOT</a>
+          <p class="navber-white pt-2 mt-1">박기철 여행자님 여행중</p>
+        </div>
+      </h1>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link navbar-white" href="#"><span class="fa fa-comments-o fa-lg"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-white" href="#">main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-white" href="#">newspeed</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-white" href="#">tourship</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-white" href="#">set-up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-white" href="#">logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- /Header -->
+  <!-- Serch -->
+  <article class="article px-2 pt-3">
+    <div class="serch navbar">
+    <button class="btn_search navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+    </button>
+    <div class="collapse" id="collapseExample">
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+    <div class="btn-group justify-content-end pull-2" role="group" aria-label="Basic example" data-toggle="bottons">
+      <button type="button" class="btn btn-secondary">실시간 순</button>
+      <button type="button" class="btn btn-secondary">좋아요 순</button>
+    </div>
+    </div>
+  </article>
+  <!-- /Serch -->
+  <!-- Main -->
+  <main class="main">
+    <div class="container">
+      <section class="posts1 py-2">
+        <ul class="row justify-content-center">
+          <li class="col-6">
+            <p class="post_user"><a href="#">박기철</a> 여행자님</p>
+            <p class="post_date">2017.07.01 PM 03:15</p>
+            <div class="card mb-3 mb-md-0">
+            <a href="#" class="card-img_container d-flex justify-content-center align-items-center">
+              <img class="card-img-top height-fix"
+                   src="assets/item-3@1x.jpg"
+                   srcset="assets/item-3@1x.jpg 1x, assets/item-3@2x.jpg 2x"
+                   alt>
+            </a>
+            </div>
+          </li>
+          <li class="col-6">
+            <div class="icon pt-3 row justify-content-end">
+              <button class="btn_heart" type="button" aria-haspopup="true">
+                <i class="fa fa-heart-o fa-2x pb-2" aria-hidden="true"></i>
+              </button>
+              <i class="fa fa-map-marker fa-2x px-1" aria-hidden="true"></i>
+              <div class="dropdown">
+                <button class="btn_option" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-plus fa-2x pb-2" aria-hidden="true"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#"><i class="fa fa-share-alt" aria-hidden="true"></i> 공유하기 </a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-ban" aria-hidden="true"></i> 신고하기 </a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i> 차단하기 </a>
+                </div>
+              </div>
+            </div>
+            <p class="post_content pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus distinctio praesentium, nihil accusamus a corporis itaque vero doloribus harum iure in dolor, tempora illum magni voluptates labore, porro ipsum repudiandae!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid porro aliquam esse aspernatur quibusdam ullam harum nostrum eligendi fugiat magni ratione perferendis distinctio, dolorem recusandae. Quibusdam rem atque reiciendis ipsum?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, officia, quod. Quisquam architecto vitae laudantium modi, laborum magnam dolorem voluptas, qui error placeat at, consectetur similique! Labore molestiae nihil, nisi?</p>
+          </li>
+        </ul>
+        <hr>
+      </section>
+      <section class="posts1 py-2">
+        <ul class="row justify-content-center">
+          <li class="col-6">
+            <p class="post_user"><a href="#">오제웅</a> 여행자님</p>
+            <p class="post_date">2017.07.01 PM 03:15</p>
+            <div class="card mb-3 mb-md-0">
+            <a href="#" class="card-img_container d-flex justify-content-center align-items-center">
+              <img class="card-img-top height-fix"
+                   src="assets/item-3@1x.jpg"
+                   srcset="assets/item-3@1x.jpg 1x, assets/item-3@2x.jpg 2x"
+                   alt>
+            </a>
+            </div>
+          </li>
+          <li class="col-6">
+            <div class="icon pt-3 row justify-content-end">
+              <i class="fa fa-heart-o fa-2x px-1" aria-hidden="true"></i>
+              <i class="fa fa-map-marker fa-2x px-1" aria-hidden="true"></i>
+              <div class="dropdown">
+                <button class="btn_option" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-plus fa-2x pb-2" aria-hidden="true"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#"><i class="fa fa-share-alt" aria-hidden="true"></i> 공유하기 </a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-ban" aria-hidden="true"></i> 신고하기 </a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i> 차단하기 </a>
+                </div>
+              </div>
+            </div>
+            <p class="post_content pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus distinctio praesentium, nihil accusamus a corporis itaque vero doloribus harum iure in dolor, tempora illum magni voluptates labore, porro ipsum repudiandae!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid porro aliquam esse aspernatur quibusdam ullam harum nostrum eligendi fugiat magni ratione perferendis distinctio, dolorem recusandae. Quibusdam rem atque reiciendis ipsum?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, officia, quod. Quisquam architecto vitae laudantium modi, laborum magnam dolorem voluptas, qui error placeat at, consectetur similique! Labore molestiae nihil, nisi?</p>
+          </li>
+        </ul>
+        <hr>
+      </section>
+      <section class="posts1 py-2">
+        <ul class="row justify-content-center">
+          <li class="col-6">
+             <p class="post_user"><a href="#">장근열</a> 여행자님</p>
+            <p class="post_date">2017.07.01 PM 03:15</p>
+            <div class="card mb-3 mb-md-0">
+            <a href="#" class="card-img_container d-flex justify-content-center align-items-center">
+              <img class="card-img-top height-fix"
+                   src="assets/item-3@1x.jpg"
+                   srcset="assets/item-3@1x.jpg 1x, assets/item-3@2x.jpg 2x"
+                   alt>
+            </a>
+            </div>
+          </li>
+          <li class="col-6">
+            <div class="icon pt-3 row justify-content-end">
+              <i class="fa fa-heart-o fa-2x px-1" aria-hidden="true"></i>
+              <i class="fa fa-map-marker fa-2x px-1" aria-hidden="true"></i>
+              <div class="dropdown">
+                <button class="btn_option" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-plus fa-2x pb-2" aria-hidden="true"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#"><i class="fa fa-share-alt" aria-hidden="true"></i> 공유하기 </a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-ban" aria-hidden="true"></i> 신고하기 </a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i> 차단하기 </a>
+                </div>
+              </div>
+            </div>
+            <p class="post_content pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus distinctio praesentium, nihil accusamus a corporis itaque vero doloribus harum iure in dolor, tempora illum magni voluptates labore, porro ipsum repudiandae!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid porro aliquam esse aspernatur quibusdam ullam harum nostrum eligendi fugiat magni ratione perferendis distinctio, dolorem recusandae. Quibusdam rem atque reiciendis ipsum?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, officia, quod. Quisquam architecto vitae laudantium modi, laborum magnam dolorem voluptas, qui error placeat at, consectetur similique! Labore molestiae nihil, nisi?</p>
+          </li>
+        </ul>
+        <hr>
+      </section>
+      <section class="posts1 py-2">
+        <ul class="row justify-content-center">
+          <li class="col-6">
+             <p class="post_user"><a href="#">이유림</a> 여행자님</p>
+            <p class="post_date">2017.07.01 PM 03:15</p>
+            <div class="card mb-3 mb-md-0">
+            <a href="#" class="card-img_container d-flex justify-content-center align-items-center">
+              <img class="card-img-top height-fix"
+                   src="assets/item-3@1x.jpg"
+                   srcset="assets/item-3@1x.jpg 1x, assets/item-3@2x.jpg 2x"
+                   alt>
+            </a>
+            </div>
+          </li>
+          <li class="col-6">
+            <div class="icon pt-3 row justify-content-end">
+              <i class="fa fa-heart-o fa-2x px-1" aria-hidden="true"></i>
+              <i class="fa fa-map-marker fa-2x px-1" aria-hidden="true"></i>
+              <div class="dropdown">
+                <button class="btn_option" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-plus fa-2x pb-2" aria-hidden="true"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#"><i class="fa fa-share-alt" aria-hidden="true"></i> 공유하기 </a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-ban" aria-hidden="true"></i> 신고하기 </a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-times-circle-o" aria-hidden="true"></i> 차단하기 </a>
+                </div>
+              </div>
+            </div>
+            <p class="post_content pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus distinctio praesentium, nihil accusamus a corporis itaque vero doloribus harum iure in dolor, tempora illum magni voluptates labore, porro ipsum repudiandae!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid porro aliquam esse aspernatur quibusdam ullam harum nostrum eligendi fugiat magni ratione perferendis distinctio, dolorem recusandae. Quibusdam rem atque reiciendis ipsum?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, officia, quod. Quisquam architecto vitae laudantium modi, laborum magnam dolorem voluptas, qui error placeat at, consectetur similique! Labore molestiae nihil, nisi?</p>
+          </li>
+        </ul>
+        <hr>
+      </section>
+    </div>
+  </main>
+  <!-- /Main -->
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
